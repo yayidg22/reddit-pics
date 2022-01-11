@@ -187,3 +187,15 @@ export const UserImage = styled('img')({
         width: '100px',
     }
 });
+
+export const LayoutSpacing = styled('div')({
+    width: '15%'
+});
+
+export const LayoutContainer = styled('div')({
+    minWidth: '70%',
+    '@media (min-width:4000px)': {
+        maxWidth: '4000px',
+        minWidth: '0',
+    }
+});

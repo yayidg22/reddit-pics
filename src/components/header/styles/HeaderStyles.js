@@ -5,17 +5,6 @@ import AppBar from '@mui/material/AppBar';
 import COLORS from "../../../theme/Colors";
 import FONTS_FAMILY from "../../../theme/FontsFamily";
 
-export const LayoutSpacing = styled('div')({
-    width: '15%'
-});
-
-export const LayoutContainer = styled('div')({
-    minWidth: '70%',
-    '@media (min-width:4000px)': {
-        maxWidth: '4000px',
-        minWidth: '0',
-    }
-});
 
 export const StyledAppBar = styled(AppBar)({
     backgroundColor: COLORS.white

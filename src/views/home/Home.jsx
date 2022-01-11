@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react';
 import { Container } from '../../theme/Styles';
-import { FiltersCard, HomeContainer, SectionTitle, StyledFilterButton, Loading, CardItem, Divider, CardPostedText, CardPostedTitle, CardItemHeader, StyledArrowCircleDownSharpIcon, StyledArrowCircleUpSharpIcon, ColumnSpacing, ImageContainer, Image, Banner, BannerImage, PicsTitle, UserImage, CardButton } from './Styles/HomeStyles';
+import { FiltersCard, HomeContainer, SectionTitle, StyledFilterButton, Loading, CardItem, Divider, CardPostedText, CardPostedTitle, CardItemHeader, StyledArrowCircleDownSharpIcon, StyledArrowCircleUpSharpIcon, ColumnSpacing, ImageContainer, Image, Banner, BannerImage, PicsTitle, UserImage, CardButton,LayoutContainer, LayoutSpacing } from './Styles/HomeStyles';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import NewReleasesIcon from '@mui/icons-material/NewReleases';
 import UploadIcon from '@mui/icons-material/Upload';
@@ -10,7 +10,6 @@ import { formatDistanceToNow, fromUnixTime } from 'date-fns';
 import bannerImage from '../../assets/images/bannerImage.svg';
 import { kFormatter } from '../../utilities/StringUtil';
 import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
-import { LayoutContainer, LayoutSpacing } from '../../components/header/styles/HeaderStyles';
 import ThanksDialog from '../../components/thanksDialog/ThanksDialog';
 
 const Home = () => {
