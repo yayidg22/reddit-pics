@@ -21,7 +21,9 @@ const Home = () => {
 
     const handleCategoryChange = (e) => {
         setCategory(e);
-        //  refetch(); // in social networks every you change screen the content change (example facebook)
+        if(e === category){
+          refetch(); // in social networks every you press the home button 2 or more times the content updates (example facebook)
+        }
     }
 
     const handleModalChange = () => {
