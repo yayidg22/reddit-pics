@@ -3,7 +3,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Header from './components/header/Header';
 import Home from './views/home/Home';
 import { QueryClient, QueryClientProvider } from 'react-query'
-import { ReactQueryDevtoolsPanel  } from 'react-query/devtools'
+import { ReactQueryDevtools } from 'react-query/devtools'
 
 const queryClient = new QueryClient()
 
@@ -14,7 +14,7 @@ function App() {
       <QueryClientProvider client={queryClient}>
         <Header />
         <Home />
-        <ReactQueryDevtoolsPanel  />
+        <ReactQueryDevtools />
       </QueryClientProvider>
     </Fragment>
   );
