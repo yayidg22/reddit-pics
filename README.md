@@ -7,12 +7,12 @@ This project simulates the reddit photography community consuming reddit's publi
 `https://api.reddit.com/r/pics/new.json` <br/>
 `https://api.reddit.com/r/pics/top.json`
 
-## Libraries on tweetme :
+## Libraries on reddit-pics :
 
 - @emotion/styled - for the CSS-IN-JS
 - date-fns (The best date formatter)
 - react-query to cache data
 - material ui for some ui components
 
-## Where is tweetme deploy
+## Where is reddit-pics deploy
 - [https://www.netlify.com/](https://www.netlify.com/) (Front end)
